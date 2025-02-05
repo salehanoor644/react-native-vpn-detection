@@ -1,5 +1,4 @@
 # react-native-vpn-detection
-<a href="https://www.buymeacoffee.com/kzlsn" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 ## Getting started
 
@@ -11,7 +10,6 @@
 
 ### Manual installation
 
-
 #### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
@@ -22,20 +20,22 @@
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainActivity.java`
-  - Add `import com.reactlibrary.RNNativeVpnDetectPackage;` to the imports at the top of the file
-  - Add `new RNNativeVpnDetectPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-  	include ':react-native-vpn-detection'
-  	project(':react-native-vpn-detection').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-vpn-detection/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      compile project(':react-native-vpn-detection')
-  	```
 
+- Add `import com.reactlibrary.RNNativeVpnDetectPackage;` to the imports at the top of the file
+- Add `new RNNativeVpnDetectPackage()` to the list returned by the `getPackages()` method
+
+2. Append the following lines to `android/settings.gradle`:
+   ```
+   include ':react-native-vpn-detection'
+   project(':react-native-vpn-detection').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-vpn-detection/android')
+   ```
+3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
+   ```
+     compile project(':react-native-vpn-detection')
+   ```
 
 ## Usage
+
 ```javascript
 * Import Library
 import Security from "react-native-vpn-detection";
