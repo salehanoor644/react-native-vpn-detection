@@ -1,0 +1,32 @@
+{
+  "name": "react-native-vpn-detection",
+  "version": "1.0.1",
+  "description": "Detect VPN and Proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "vpn",
+    "proxy",
+    "network",
+    "vpn-detection",
+    "proxy-detection",
+    "vpn detection",
+    "proxy detection"
+  ],
+  "author": "saleha_noor",
+  "license": "ISC",
+  "devDependencies": {
+    "react-native": "0.66.4"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "homepage": "https://github.com/kzlsnn/react-native-vpn-detect"
+}
