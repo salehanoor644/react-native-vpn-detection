@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.preserve_paths = 'README.md', 'package.json', 'index.js'
   s.source_files   = 'iOS/*.{h,m}'
-  s.source         = { :git => 'https://github.com/kzlsnn/react-native-vpn-detect.git' }
+  s.source         = { :git => 'https://github.com/salehanoor644/react-native-vpn-detection.git' }
 
   s.dependency 'React'
 end
